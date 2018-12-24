@@ -381,6 +381,23 @@ header h3{
     padding-top: 20px;
     margin-bottom: 30px;
 }
+
+@media(max-width: 700px){
+    .meetup-img, .meetup-details{
+        width: 100%;
+        float: none;
+    }
+    .meetup-details{
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    main,{
+        width: 100%;
+    }
+    .vote{
+        margin-left: 0;
+    }
+}
 section #profile-head{
     margin-bottom: 10px;
 }
